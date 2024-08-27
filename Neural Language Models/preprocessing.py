@@ -1,10 +1,13 @@
+import pandas as pd
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
-# Assuming you have a list of poems
-poems = ["Your list of poem strings here"]
+# Reading the Data 
+my_data = pd.read_csv("all.csv")
+poems = my_data.loc[my_data['type'] == 'Love']['content']
+poems = list(poems)
 
 # Clean and preprocess the text
 def preprocess_text(text):

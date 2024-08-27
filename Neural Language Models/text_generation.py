@@ -1,3 +1,9 @@
+from preprocessing import tokenizer
+from model import seq_length
+from model import model
+
+import numpy as np
+from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 def generate_poem(model, seed_text, num_words):
     generated_text = seed_text
