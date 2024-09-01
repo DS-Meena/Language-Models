@@ -22,5 +22,4 @@ def generate_poem(model, start_string, num_generate=20, temperature=1.0):
         
     return (start_string + ' ' + ' '.join(text_generated))
 
-start_string = "love is"
-print(generate_poem(model, start_string="love"))
+print(generate_poem(model, start_string="love is"))
