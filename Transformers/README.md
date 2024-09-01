@@ -5,7 +5,7 @@ Let's create a transformer model from scratch using TensorFlow to generate love 
 3. Training
 4. Poem Generation
 
-Check the kaggle notebook here: 
+Check the kaggle notebook here: [Love poems using Transformers](https://www.kaggle.com/code/dsmeena/love-poems-using-transformers/notebook)
 
 # 1. Data Preparation
 
