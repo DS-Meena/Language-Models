@@ -9,5 +9,9 @@ Make sure you select the correct python interpreter in your IDE. To change it in
 - Type "Python: Select Interpreter" and select it from the list. 📃
 - Go the your virtuan environment bin folder and select python file. e.g. 'ml_env/bin/python3.10'
 
+## Best practices:
+- Keep separate virtual environments for tensorflow and torch.
+
+
 # Language-Models
 Language models are like the brain 🧠 of your favorite apps that predict text or understand your requests. They work by predicting the next word by analyzing the context provided by the preceding words or parts of the text.📊
