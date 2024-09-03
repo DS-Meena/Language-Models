@@ -6,6 +6,8 @@ We can leavage pre-trained LM to gnerate love poems through fine-tuning. This in
 3. Fine-tune the model
 4. Generate Poems
 
+You can check the kaggle notebook here: [Kaggle notebok](https://www.kaggle.com/code/dsmeena/love-poems-using-pre-trained-lm/notebook#Generate-a-love-poem)
+
 # Steps
 
 ## Pretrained.py 
