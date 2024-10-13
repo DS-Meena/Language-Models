@@ -1,4 +1,5 @@
 # Always remember virtualenv
+` sudo apt install python3-venv`
 `python3 -m venv ml_env`
 `source ml_env/bin/activate`
 
